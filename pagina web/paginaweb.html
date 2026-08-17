@@ -1,0 +1,404 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>GameZone - Tienda de Videojuegos</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            🎮 GameZone
+        </div>
+
+        <nav>
+
+            <a href="#">Inicio</a>
+            <a href="#juegos">Juegos</a>
+            <a href="#ofertas">Ofertas</a>
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+        <div class="carrito">
+            🛒 <span id="contador">0</span>
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>
+                El mundo de los
+                <span>videojuegos</span>
+            </h1>
+
+            <p>
+                Descubre nuevos juegos, encuentra grandes ofertas
+                y lleva tu experiencia gamer al siguiente nivel.
+            </p>
+
+            <a href="#juegos" class="boton">
+                Ver juegos
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTOS -->
+
+    <section class="productos" id="juegos">
+
+        <h2>🔥 Juegos populares</h2>
+
+        <div class="grid">
+
+
+            <!-- JUEGO 1 -->
+
+            <div class="card">
+
+                <div class="imagen game1"></div>
+
+                <div class="info">
+
+                    <h3>Adventure World</h3>
+
+                    <p class="precio">$39.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 2 -->
+
+            <div class="card">
+
+                <div class="imagen game2"></div>
+
+                <div class="info">
+
+                    <h3>Cyber Battle</h3>
+
+                    <p class="precio">$49.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 3 -->
+
+            <div class="card">
+
+                <div class="imagen game3"></div>
+
+                <div class="info">
+
+                    <h3>Retro Legends</h3>
+
+                    <p class="precio">$24.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 4 -->
+
+            <div class="card">
+
+                <div class="imagen game4"></div>
+
+                <div class="info">
+
+                    <h3>Racing Extreme</h3>
+
+                    <p class="precio">$34.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 5 -->
+
+            <div class="card">
+
+                <div class="imagen game5"></div>
+
+                <div class="info">
+
+                    <h3>Space Warriors</h3>
+
+                    <p class="precio">$44.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 6 -->
+
+            <div class="card">
+
+                <div class="imagen game6"></div>
+
+                <div class="info">
+
+                    <h3>Battle Arena</h3>
+
+                    <p class="precio">$29.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 7 -->
+
+            <div class="card">
+
+                <div class="imagen game7"></div>
+
+                <div class="info">
+
+                    <h3>Dark Kingdom</h3>
+
+                    <p class="precio">$54.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 8 -->
+
+            <div class="card">
+
+                <div class="imagen game8"></div>
+
+                <div class="info">
+
+                    <h3>Street Racing</h3>
+
+                    <p class="precio">$32.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 9 -->
+
+            <div class="card">
+
+                <div class="imagen game9"></div>
+
+                <div class="info">
+
+                    <h3>Football Stars</h3>
+
+                    <p class="precio">$39.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 10 -->
+
+            <div class="card">
+
+                <div class="imagen game10"></div>
+
+                <div class="info">
+
+                    <h3>Zombie Apocalypse</h3>
+
+                    <p class="precio">$42.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 11 -->
+
+            <div class="card">
+
+                <div class="imagen game11"></div>
+
+                <div class="info">
+
+                    <h3>Galaxy Fighters</h3>
+
+                    <p class="precio">$36.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JUEGO 12 -->
+
+            <div class="card">
+
+                <div class="imagen game12"></div>
+
+                <div class="info">
+
+                    <h3>Legend Quest</h3>
+
+                    <p class="precio">$27.99</p>
+
+                    <button class="comprar" onclick="agregar()">
+                        🛒 Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- OFERTA -->
+
+    <section class="oferta" id="ofertas">
+
+        <h2>⚡ OFERTA ESPECIAL</h2>
+
+        <p>
+            Hasta 50% de descuento en juegos seleccionados.
+        </p>
+
+        <a href="#juegos" class="boton">
+            Ver ofertas
+        </a>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+
+    <footer id="contacto">
+
+        <h3>📞 Contacto</h3>
+
+        <p>
+            WhatsApp:
+            <a href="https://wa.me/573133045224" target="_blank">
+                313 304 5224
+            </a>
+        </p>
+
+        <br>
+
+        <p>
+            🎮 GameZone © 2026
+        </p>
+
+        <br>
+
+        <p>
+            La mejor tienda para gamers.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        let contador = 0;
+
+        function agregar() {
+
+            contador++;
+
+            document.getElementById("contador")
+            .textContent = contador;
+
+            alert("🎮 ¡Juego agregado al carrito!");
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
+```

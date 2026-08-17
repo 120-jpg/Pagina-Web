@@ -1,0 +1,591 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   CUERPO DE LA PÁGINA
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f14;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: #18181f;
+
+    min-height: 70px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+
+    padding: 15px;
+
+    border-bottom: 2px solid #9147ff;
+}
+
+
+/* LOGO */
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #9147ff;
+}
+
+
+/* =========================
+   MENÚ
+========================= */
+
+nav {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #9147ff;
+}
+
+
+/* =========================
+   CARRITO
+========================= */
+
+.carrito {
+    background: #9147ff;
+
+    padding: 10px 18px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 500px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 40px 20px;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(15, 15, 20, 1),
+            rgba(15, 15, 20, 0.5),
+            rgba(15, 15, 20, 0.9)
+        ),
+
+        url("https://images.unsplash.com/photo-1542751371-adc38448a05e")
+        center / cover;
+}
+
+
+.hero-text {
+    max-width: 600px;
+}
+
+
+.hero h1 {
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+
+.hero h1 span {
+    color: #9147ff;
+}
+
+
+.hero p {
+    font-size: 17px;
+
+    line-height: 1.6;
+
+    color: #ddd;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+.boton {
+    display: inline-block;
+
+    background: #9147ff;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 14px 25px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.boton:hover {
+    background: #762bd6;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   SECCIÓN DE PRODUCTOS
+========================= */
+
+.productos {
+    padding: 50px 20px;
+}
+
+
+.productos h2 {
+    font-size: 30px;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   GRID
+========================= */
+
+/* MOBILE FIRST */
+
+.grid {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+}
+
+
+/* =========================
+   TARJETAS
+========================= */
+
+.card {
+    background: #191920;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    border: 1px solid #292932;
+
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    transform: translateY(-8px);
+
+    border-color: #9147ff;
+}
+
+
+/* =========================
+   IMÁGENES
+========================= */
+
+.imagen {
+    height: 220px;
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+
+/* JUEGO 1 */
+
+.game1 {
+    background-image:
+        url("https://images.unsplash.com/photo-1606144042614-b2417e99c4e3");
+}
+
+
+/* JUEGO 2 */
+
+.game2 {
+    background-image:
+        url("https://images.unsplash.com/photo-1593305841991-05c297ba4575");
+}
+
+
+/* JUEGO 3 */
+
+.game3 {
+    background-image:
+        url("https://images.unsplash.com/photo-1550745165-9bc0b252726f");
+}
+
+
+/* JUEGO 4 */
+
+.game4 {
+    background-image:
+        url("https://images.unsplash.com/photo-1493711662062-fa541adb3fc8");
+}
+
+
+/* JUEGO 5 */
+
+.game5 {
+    background-image:
+        url("https://images.unsplash.com/photo-1511512578047-dfb367046420");
+}
+
+
+/* JUEGO 6 */
+
+.game6 {
+    background-image:
+        url("https://images.unsplash.com/photo-1547394765-185e1e68f34e");
+}
+
+
+/* JUEGO 7 */
+
+.game7 {
+    background-image:
+        url("https://images.unsplash.com/photo-1560419015-7c427e8ae5ba");
+}
+
+
+/* JUEGO 8 */
+
+.game8 {
+    background-image:
+        url("https://images.unsplash.com/photo-1592840496694-26c035b52b48");
+}
+
+
+/* JUEGO 9 */
+
+.game9 {
+    background-image:
+        url("https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd");
+}
+
+
+/* JUEGO 10 */
+
+.game10 {
+    background-image:
+        url("https://images.unsplash.com/photo-1605901309584-818e25960a8f");
+}
+
+
+/* JUEGO 11 */
+
+.game11 {
+    background-image:
+        url("https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf");
+}
+
+
+/* JUEGO 12 */
+
+.game12 {
+    background-image:
+        url("https://images.unsplash.com/photo-1596568359553-a56de6970068");
+}
+
+
+/* =========================
+   INFORMACIÓN
+========================= */
+
+.info {
+    padding: 20px;
+}
+
+
+.info h3 {
+    margin-bottom: 10px;
+}
+
+
+.precio {
+    color: #9147ff;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   BOTÓN COMPRAR
+========================= */
+
+.comprar {
+    width: 100%;
+
+    border: none;
+
+    padding: 12px;
+
+    border-radius: 7px;
+
+    background: #9147ff;
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.comprar:hover {
+    background: #762bd6;
+}
+
+
+/* =========================
+   OFERTA
+========================= */
+
+.oferta {
+    margin: 20px;
+
+    padding: 40px 20px;
+
+    border-radius: 15px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #9147ff,
+            #431c7a
+        );
+
+    text-align: center;
+}
+
+
+.oferta h2 {
+    font-size: 30px;
+
+    margin-bottom: 15px;
+}
+
+
+.oferta p {
+    margin-bottom: 25px;
+
+    color: #eee;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background: #18181f;
+
+    text-align: center;
+
+    padding: 30px;
+
+    color: #aaa;
+}
+
+
+footer h3 {
+    color: white;
+
+    font-size: 22px;
+
+    margin-bottom: 15px;
+}
+
+
+footer a {
+    color: #25D366;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 18px;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (min-width: 600px) {
+
+    header {
+        flex-direction: row;
+
+        justify-content: space-between;
+
+        padding: 0 30px;
+    }
+
+
+    nav {
+        flex-direction: row;
+
+        gap: 20px;
+    }
+
+
+    .hero {
+        padding: 60px 8%;
+    }
+
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .oferta {
+        margin: 20px 5% 60px;
+    }
+
+}
+
+
+/* =========================
+   COMPUTADOR
+========================= */
+
+@media (min-width: 1000px) {
+
+    header {
+        height: 70px;
+
+        padding: 0 40px;
+    }
+
+
+    .logo {
+        font-size: 28px;
+    }
+
+
+    nav {
+        gap: 25px;
+    }
+
+
+    .hero {
+        min-height: 450px;
+
+        padding: 60px 8%;
+    }
+
+
+    .hero h1 {
+        font-size: 55px;
+    }
+
+
+    .hero p {
+        font-size: 19px;
+    }
+
+
+    .productos {
+        padding: 60px 7%;
+    }
+
+
+    .productos h2 {
+        font-size: 35px;
+    }
+
+
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 25px;
+    }
+
+
+    .imagen {
+        height: 230px;
+    }
+
+
+    .oferta {
+        margin: 20px 7% 60px;
+
+        padding: 50px;
+    }
+
+
+    .oferta h2 {
+        font-size: 40px;
+    }
+
+}
